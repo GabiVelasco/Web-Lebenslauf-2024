@@ -21,21 +21,26 @@ body {
 
 .header {
     text-align: center;
-    background-color: #2477a3;
+    background-color:#0d4664;
     padding: 10px;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-bottom: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .photo {
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
     width: 120px; /* Adjusted size */
     height: 120px; /* Adjusted size */
     border-radius: 50%;
     border: 4px solid #fff;
     object-fit: cover;
+    
 }
 
 h1 {
@@ -166,7 +171,7 @@ h2 {
     top: 0;
     bottom: 0;
     width: 1px; /* Adjusted size */
-    background: #2477a3;
+    background: #0d4664;
     left: 20px;
 }
 
@@ -307,3 +312,22 @@ h3, h2{
         font-family: 'Noto Color Emoji', sans-serif !important;
         display: flex;
     }
+
+
+.image-block {
+
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    padding: 5%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    right: 14%;
+}
+    /* NEW */
+
+
+    /* NEW END */
