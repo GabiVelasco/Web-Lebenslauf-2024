@@ -18,17 +18,17 @@ body {
     max-width: 210mm; /* A4 size width */
     min-height: 297mm; /* A4 size height */
     margin: auto;
-    padding: 15px;
+    padding: 8px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     position: relative;
 }
 
 .header {
     text-align: center;
-    background-color:#0d4664;
-    padding: 5px;
-    color: #fff;
+    /* background-color:#0d4664; */
+    padding: 7px;
+    color: #868282;
     border-radius: 5px;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +37,11 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+.header a, .header p, .header img, .header h1, .header h2, .header h3, .header i{
+    color: #868282;
+
 }
 
 .photo {
@@ -83,6 +88,7 @@ h1 {
     left: 5px;
     width:20px;
 
+
 }
 
 
@@ -107,6 +113,11 @@ h1 {
     color: #fff;
     text-decoration:none;
     font-size: 10px;
+   
+}
+
+.flex a{
+   
 }
 
 h2 {
