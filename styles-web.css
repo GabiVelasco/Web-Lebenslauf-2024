@@ -147,13 +147,13 @@ h2 {
 }
 
 .description {
-    width: 70%; /* Wider width for description */
+    width: 90%; /* Wider width for description */
     text-align:justify;
     
 }
 
 .sprachen {
-    width: 35%; /* Slightly smaller width for sprachen */
+    width: 25%; /* Slightly smaller width for sprachen */
     display: flex;
     justify-content: flex-end; /* Aligns content to the right */
     margin: auto;
@@ -333,6 +333,30 @@ h3, h2{
         font-family: 'Noto Color Emoji', sans-serif !important;
         display: flex;
     }
+
+
+.hardskills {
+    
+  
+        color:  #2477a3;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: 'Noto Color Emoji', sans-serif !important;
+        display: flex;
+    
+}
+
+
+
+.Signatur {
+    
+  
+    color:  #2477a3;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Noto Color Emoji', sans-serif !important;
+
+}
 
 
 .image-block {
