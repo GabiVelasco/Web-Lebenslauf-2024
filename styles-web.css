@@ -20,13 +20,11 @@ body {
     margin: auto;
     padding: 8px;
     border-radius: 8px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     position: relative;
 }
 
 .header {
     text-align: center;
-    /* background-color:#0d4664; */
     padding: 7px;
     color: #868282;
     border-radius: 5px;
@@ -65,11 +63,19 @@ h1 {
 }
 
 .profession {
-    font-size: 14px; /* Adjusted size */
+    font-size: 8px !important; /* Adjusted size */
     text-transform: uppercase;
     margin: 5px 0;
     letter-spacing: 3px;
 }
+
+.profession p {
+    font-size: 10px !important; /* Adjusted size */
+    text-transform: uppercase;
+    margin: 5px 0;
+    letter-spacing: 3px;
+}
+
 
 .contact-info {
     font-size: 10px; /* Adjusted size */
@@ -116,9 +122,7 @@ h1 {
    
 }
 
-.flex a{
-   
-}
+
 
 h2 {
     color: #2477a3;
